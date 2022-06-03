@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <header>Weather Dashboard</header>
+
+    <div id="content" class="container">
+        <div class="row">
+
+            <!-- Left side of the screen -->
+            <div id="contentLeft" class="col-md-3">
+               
+                    <label for="cityLookUp">Search for a City:</label>
+                    <div class="form-row">
+                        <input id="cityLookUp" class="form-control" name="city" value=" "  ></input>
+                       
+                        <button id="searchBtn"  type="submit"></button>
+                    </div>
+                
+                <div id="search-error"></div>
+                <ul id="city-results" class="list-group mt-4"></ul>
+                <!-- clear storage button -->
+                <a id="clear-storage" href="#"></a>    
+            </div>
+            <!-- Right side content  -->
+            <div id="contentRight" class="col-md-9 pt-4">
+                <!-- Current weather displayed on top -->
+                <div id="current-weather" class="border rounded">
+                    <h2></h2>
+                </div>
+                <!-- Five day forecast  -->
+                <div id="five-day-forecast" class="mt-5"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>

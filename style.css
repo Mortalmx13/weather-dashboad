@@ -1,0 +1,13 @@
+header{
+    text-align: center;
+    font-size: 100px;
+    background-color: blue;
+}
+#contentLeft{
+    border: 15px solid black;
+    padding: 25px;
+}
+contentRight{
+    border: 15px solid black;
+    padding: 25px;
+}

@@ -44,5 +44,7 @@ var citySave = function(newcity){
 
 searchBtnEl.addEventListener("click", function(event){
 event.preventDefault();
-currentCity = $('#citdyLookUp')
+currentCity = $('#citdyLookUp').val();
+getLocationConditions();
 })
+

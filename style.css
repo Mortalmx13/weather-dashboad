@@ -7,7 +7,15 @@ header{
     border: 15px solid black;
     padding: 25px;
 }
-contentRight{
-    border: 15px solid black;
-    padding: 25px;
+button{
+    font-size: 1.3rem;
+  text-decoration: none;
+  padding: 6px 5px;
+  width: 100%;
+  display: block;
+  margin: 5px 0;
+  background-color: yellow;
+}
+body{
+    background-color: tan;
 }
